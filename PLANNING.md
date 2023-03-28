@@ -9,7 +9,7 @@
   * palette https://crates.io/crates/palette
 * Renderer
   * Vulkan API
-    * Ash; Vulkano; WebGPU?
+    * ~~Ash~~; Vulkano; WebGPU?
   * DirectX 12 API
   * ? kajiya GI (experimental)
   * Shader Precomp
