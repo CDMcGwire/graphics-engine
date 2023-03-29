@@ -12,7 +12,8 @@ winit = "0.27"
 
 bytemuck = { version = "1.7", features = ["derive", "extern_crate_std", "min_const_generics"] }
 glam = "0.23.0"
-png = "0.17.7"
 serde = { version = "1.0", features = ["derive"] }
 ron = "0.8.0"
 rand = "0.8.5"
+image = { version = "0.24.6", default-features = false, features = ["png"] }
+gilrs = { version = "0.10.1", default-features = false, features = ["xinput"] }

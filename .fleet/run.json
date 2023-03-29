@@ -1,0 +1,9 @@
+{
+	"configurations": [
+		{
+			"name": "run engine",
+			"type": "cargo",
+			"cargoArgs": ["run","--package","engine","--bin","engine"],
+		},
+	]
+}

@@ -1,6 +1,8 @@
 # Components Needed
 
 * Logging system
+  * log4rs (general logging)
+  * tracing (Tokio tool for asynchronous logic)
 * Window Initialization
   * winit https://crates.io/crates/winit
 * Maths
