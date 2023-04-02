@@ -1,0 +1,13 @@
+EngineConfig(
+	window: (
+		size: (width: 1000, height: 1000),
+		min_size: (width: 800, height: 600),
+		fullscreen: false,
+		borderless: true,
+		decorations: true,
+		resizable: true,
+		transparent: false,
+		title: "Pizza Time",
+		icon_path: "./data/img/icon.png",
+	),
+)

@@ -51,3 +51,26 @@
   * Quinn QUIC messaging https://crates.io/crates/quinn
 * Other Stuff
   * Noise Generator https://crates.io/crates/noise
+
+# Functional Requirements
+
+* Independent visual and physics tick rates
+  * ? Possibly timewarp and other perceptual lag reduction features https://www.youtube.com/watch?v=VvFyOFacljg
+    * ~~Essentially another separate tick rate for input~~ This really is just separating Game Update from Render Update
+    * Article with more https://uploadvr.com/reprojection-explained/
+* Splitscreen support
+  * Maybe multi-monitor support??
+    * This would be very niche _except for split-screen_
+* Input system
+  * Remappable
+  * Multi-gamepad support with hot-swapping and active input management options
+
+# High-Level Engine Flow
+
+1. Process OS Events/Input
+  a. Snapshot prepared
+2. Game State Update
+  a. Snapshot given
+  b. Modified system state potentially returned?
+3. Physics Updated
+4. Current State Rendered
